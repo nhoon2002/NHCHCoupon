@@ -1,0 +1,19 @@
+.CategoryBox-container {
+  width: 95%;
+  /* max-width: 160px; */
+  /* margin: 1%; */
+  /* height: auto; */
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.CategoryBox-header {
+  height: 40px;
+  padding: 5% 0% 0% 10%;
+  font-size: 13.5px;
+}
+.CategoryBox-imgHolder {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+.homeBanner-container {
+  /* padding: 2% 5%;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; */
+}
+.homeBanner-left-container {
+  flex: 3;
+}
+.homeBanner-right-container {
+  flex: 5;
+}
+.paddedInside {
+  padding: 8%;
+}
+.homeBanner-right-container .right-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+/* .homeBanner-right-container.right-subtitle {
+  font-family: 'Nunito', sans-serif;
+} */
+img {
+  /* max-width: 100%; */
+}

@@ -1,0 +1,7 @@
+.ProductsContainer-container {
+  margin: 10px;
+}
+.halves {
+  width: 50%;
+  display: inline-block;
+}

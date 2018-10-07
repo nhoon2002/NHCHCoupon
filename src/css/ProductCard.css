@@ -1,0 +1,16 @@
+.product-card {
+  width: 95%;
+  margin: 5px auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5% 10%;
+  box-sizing: border-box;
+}
+.product-card-content {
+  position: relative;
+}
+.product-card-content img.addtoCart {
+  position: absolute;
+  bottom: -5px;
+  right: -10px;
+}

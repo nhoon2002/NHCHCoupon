@@ -1,0 +1,7 @@
+.CategoryContainer-container {
+  margin: 10px;
+}
+.thirds {
+  width: calc(100% / 3);
+  display: inline-block;
+}

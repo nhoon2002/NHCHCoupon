@@ -1,0 +1,95 @@
+body {
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+.Main {
+  padding-top: 130px;
+  background: #f7f7f7;
+}
+.container.Main-content {
+  background: #f7f7f7;
+  margin-top: 10px;
+}
+.Home-content {
+  background: #f7f7f7;
+}
+.bold-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ModalOverlay  */
+
+.modal-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: black;
+  opacity: 0;
+  transition: 1s all;
+}
+.modal-overlay.showing {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: black;
+  opacity: 0.4;
+  transition: 1s all;
+}
+
+/* Notification */
+.notification {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  color: white;
+  z-index: -1;
+  opacity: 0;
+  transition: 500ms all;
+}
+.notification.showing {
+  position: fixed;
+  width: 100vw;
+  height: auto;
+  padding: 10px;
+  z-index: 5;
+  color: white;
+  opacity: 1;
+  transition: 500ms all;
+}
+.success {
+  background: rgba(76, 217, 100);
+}
+.warning {
+  background: rgba(255, 149, 0);
+}
+.danger {
+  background: rgba(255, 59, 48);
+}
+.notifi-content {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+}
+.noti-faHolder {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.noti-msgHolder {
+  flex: 5;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  text-align: center;
+}
